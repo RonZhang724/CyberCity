@@ -16,9 +16,9 @@ catRun.state1.prototype = {
         game.add.text(230, 180, 'Press ENTER to start', {fontSize: '32px', fill: '#000'})
         game.input.keyboard.addKey(Phaser.Keyboard.ENTER).onDown.add(changeState, null, null, null);
     },
-    update: function(){
-        
+    update: function(){     
     }
+
 };
 
 function changeState(){
